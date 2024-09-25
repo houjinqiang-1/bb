@@ -1,0 +1,540 @@
+/usr/local/bin/python3.9 /Users/admin/Desktop/MRGNN/model_p_reply_ablation.py
+2.1.1
+embedding dim 128
+before_break_653.5_break number33.0
+random_break finished
+1248
+1248
+2496
+train negative sampling done
+before_break_959.0_break number48.0
+/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/scipy/sparse/_index.py:100: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_intXint(row, col, x.flat[0])
+random_break finished
+1834
+1834
+3668
+train negative sampling done
+before_break_1736.0_break number87.0
+random_break finished
+3310
+3310
+6620
+train negative sampling done
+(3, 279, 279)
+epoches: 0001 |  train loss: 0.6876 |  train acc: 0.5202 |  val loss: 0.6950 |  val acc: 0.5400 |  auc: 0.5778 |  time: 68.3217 |
+epoches: 0002 |  train loss: 0.6778 |  train acc: 0.5724 |  val loss: 0.6888 |  val acc: 0.5756 |  auc: 0.6184 |  time: 68.3661 |
+test loss: 0.6704  test acc: 0.5776  test Auc: 0.5968
+epoches: 0003 |  train loss: 0.6617 |  train acc: 0.6208 |  val loss: 0.6633 |  val acc: 0.6000 |  auc: 0.6811 |  time: 63.6264 |
+epoches: 0004 |  train loss: 0.6310 |  train acc: 0.6637 |  val loss: 0.6328 |  val acc: 0.6622 |  auc: 0.7484 |  time: 58.2876 |
+test loss: 0.6320  test acc: 0.6203  test Auc: 0.7458
+epoches: 0005 |  train loss: 0.6125 |  train acc: 0.6786 |  val loss: 0.6480 |  val acc: 0.6600 |  auc: 0.7863 |  time: 58.4845 |
+epoches: 0006 |  train loss: 0.5992 |  train acc: 0.7047 |  val loss: 0.5822 |  val acc: 0.7311 |  auc: 0.8059 |  time: 57.8476 |
+test loss: 0.5770  test acc: 0.7197  test Auc: 0.8175
+epoches: 0007 |  train loss: 0.5717 |  train acc: 0.7161 |  val loss: 0.5886 |  val acc: 0.7467 |  auc: 0.8210 |  time: 58.0102 |
+epoches: 0008 |  train loss: 0.5440 |  train acc: 0.7278 |  val loss: 0.5679 |  val acc: 0.7400 |  auc: 0.8375 |  time: 58.5339 |
+test loss: 0.5606  test acc: 0.7443  test Auc: 0.8156
+epoches: 0009 |  train loss: 0.5771 |  train acc: 0.7268 |  val loss: 0.5437 |  val acc: 0.7222 |  auc: 0.8374 |  time: 57.7703 |
+epoches: 0010 |  train loss: 0.5110 |  train acc: 0.7594 |  val loss: 0.5111 |  val acc: 0.8067 |  auc: 0.8544 |  time: 58.3175 |
+test loss: 0.5233  test acc: 0.7046  test Auc: 0.8460
+epoches: 0011 |  train loss: 0.5158 |  train acc: 0.7516 |  val loss: 0.5314 |  val acc: 0.7356 |  auc: 0.8579 |  time: 57.8739 |
+epoches: 0012 |  train loss: 0.5247 |  train acc: 0.7482 |  val loss: 0.5102 |  val acc: 0.7578 |  auc: 0.8633 |  time: 57.9817 |
+test loss: 0.5143  test acc: 0.7568  test Auc: 0.8491
+epoches: 0013 |  train loss: 0.4885 |  train acc: 0.7686 |  val loss: 0.4693 |  val acc: 0.7711 |  auc: 0.8705 |  time: 57.8803 |
+epoches: 0014 |  train loss: 0.4894 |  train acc: 0.7586 |  val loss: 0.4804 |  val acc: 0.7711 |  auc: 0.8764 |  time: 57.7883 |
+test loss: 0.5680  test acc: 0.7153  test Auc: 0.8614
+epoches: 0015 |  train loss: 0.4596 |  train acc: 0.7950 |  val loss: 0.4240 |  val acc: 0.8222 |  auc: 0.8780 |  time: 57.8289 |
+epoches: 0016 |  train loss: 0.5144 |  train acc: 0.7589 |  val loss: 0.4809 |  val acc: 0.7178 |  auc: 0.8832 |  time: 58.0873 |
+test loss: 0.5091  test acc: 0.7677  test Auc: 0.8672
+epoches: 0017 |  train loss: 0.4767 |  train acc: 0.7765 |  val loss: 0.4877 |  val acc: 0.7156 |  auc: 0.8879 |  time: 57.9916 |
+epoches: 0018 |  train loss: 0.4749 |  train acc: 0.7863 |  val loss: 0.4577 |  val acc: 0.8000 |  auc: 0.8904 |  time: 57.7789 |
+test loss: 0.4535  test acc: 0.7859  test Auc: 0.8719
+epoches: 0019 |  train loss: 0.4765 |  train acc: 0.7809 |  val loss: 0.4742 |  val acc: 0.7644 |  auc: 0.8927 |  time: 57.9637 |
+epoches: 0020 |  train loss: 0.4627 |  train acc: 0.7840 |  val loss: 0.4613 |  val acc: 0.7733 |  auc: 0.8971 |  time: 58.0068 |
+test loss: 0.4928  test acc: 0.7707  test Auc: 0.8825
+epoches: 0021 |  train loss: 0.4207 |  train acc: 0.8097 |  val loss: 0.4104 |  val acc: 0.8156 |  auc: 0.8975 |  time: 57.9490 |
+epoches: 0022 |  train loss: 0.4325 |  train acc: 0.8029 |  val loss: 0.4543 |  val acc: 0.8156 |  auc: 0.9009 |  time: 57.7837 |
+test loss: 0.4709  test acc: 0.7937  test Auc: 0.8915
+epoches: 0023 |  train loss: 0.4115 |  train acc: 0.8167 |  val loss: 0.4417 |  val acc: 0.8089 |  auc: 0.9063 |  time: 57.7833 |
+epoches: 0024 |  train loss: 0.4210 |  train acc: 0.8073 |  val loss: 0.4397 |  val acc: 0.8378 |  auc: 0.9065 |  time: 57.6352 |
+test loss: 0.4563  test acc: 0.7888  test Auc: 0.8815
+epoches: 0025 |  train loss: 0.4237 |  train acc: 0.8077 |  val loss: 0.3683 |  val acc: 0.8311 |  auc: 0.9103 |  time: 57.8938 |
+epoches: 0026 |  train loss: 0.3953 |  train acc: 0.8289 |  val loss: 0.4014 |  val acc: 0.8222 |  auc: 0.9123 |  time: 57.8204 |
+test loss: 0.4277  test acc: 0.8139  test Auc: 0.8886
+epoches: 0027 |  train loss: 0.4271 |  train acc: 0.8087 |  val loss: 0.4217 |  val acc: 0.8156 |  auc: 0.9148 |  time: 57.9704 |
+epoches: 0028 |  train loss: 0.4380 |  train acc: 0.8060 |  val loss: 0.4474 |  val acc: 0.7978 |  auc: 0.9161 |  time: 58.2063 |
+test loss: 0.4631  test acc: 0.8046  test Auc: 0.8798
+epoches: 0029 |  train loss: 0.3684 |  train acc: 0.8384 |  val loss: 0.3727 |  val acc: 0.8133 |  auc: 0.9197 |  time: 58.0779 |
+epoches: 0030 |  train loss: 0.4247 |  train acc: 0.8106 |  val loss: 0.4138 |  val acc: 0.8133 |  auc: 0.9201 |  time: 57.8922 |
+test loss: 0.4253  test acc: 0.8218  test Auc: 0.8840
+epoches: 0031 |  train loss: 0.4193 |  train acc: 0.8154 |  val loss: 0.4006 |  val acc: 0.7756 |  auc: 0.9215 |  time: 58.1126 |
+epoches: 0032 |  train loss: 0.3633 |  train acc: 0.8375 |  val loss: 0.3778 |  val acc: 0.8067 |  auc: 0.9238 |  time: 57.6346 |
+test loss: 0.4281  test acc: 0.8066  test Auc: 0.8920
+epoches: 0033 |  train loss: 0.3503 |  train acc: 0.8462 |  val loss: 0.3993 |  val acc: 0.7844 |  auc: 0.9263 |  time: 58.2596 |
+epoches: 0034 |  train loss: 0.4053 |  train acc: 0.8191 |  val loss: 0.3824 |  val acc: 0.8267 |  auc: 0.9288 |  time: 57.7853 |
+test loss: 0.5059  test acc: 0.8063  test Auc: 0.9018
+epoches: 0035 |  train loss: 0.3720 |  train acc: 0.8338 |  val loss: 0.4074 |  val acc: 0.8533 |  auc: 0.9250 |  time: 57.8815 |
+epoches: 0036 |  train loss: 0.3361 |  train acc: 0.8584 |  val loss: 0.3417 |  val acc: 0.8044 |  auc: 0.9311 |  time: 57.7305 |
+test loss: 0.4663  test acc: 0.8200  test Auc: 0.8985
+epoches: 0037 |  train loss: 0.3918 |  train acc: 0.8318 |  val loss: 0.3676 |  val acc: 0.8089 |  auc: 0.9301 |  time: 58.1103 |
+epoches: 0038 |  train loss: 0.3366 |  train acc: 0.8546 |  val loss: 0.3699 |  val acc: 0.7978 |  auc: 0.9322 |  time: 57.8189 |
+test loss: 0.4332  test acc: 0.8261  test Auc: 0.8978
+epoches: 0039 |  train loss: 0.3983 |  train acc: 0.8294 |  val loss: 0.3725 |  val acc: 0.8578 |  auc: 0.9323 |  time: 57.8343 |
+epoches: 0040 |  train loss: 0.3725 |  train acc: 0.8365 |  val loss: 0.3693 |  val acc: 0.8400 |  auc: 0.9331 |  time: 57.9641 |
+test loss: 0.4388  test acc: 0.8168  test Auc: 0.8982
+epoches: 0041 |  train loss: 0.3573 |  train acc: 0.8422 |  val loss: 0.3703 |  val acc: 0.8600 |  auc: 0.9365 |  time: 57.6801 |
+epoches: 0042 |  train loss: 0.3620 |  train acc: 0.8472 |  val loss: 0.3809 |  val acc: 0.8444 |  auc: 0.9348 |  time: 60.1529 |
+test loss: 0.4800  test acc: 0.8043  test Auc: 0.8961
+epoches: 0043 |  train loss: 0.3335 |  train acc: 0.8550 |  val loss: 0.3583 |  val acc: 0.8600 |  auc: 0.9364 |  time: 63.4263 |
+epoches: 0044 |  train loss: 0.3371 |  train acc: 0.8561 |  val loss: 0.3662 |  val acc: 0.8444 |  auc: 0.9374 |  time: 58.4974 |
+test loss: 0.4211  test acc: 0.8201  test Auc: 0.9000
+epoches: 0045 |  train loss: 0.3825 |  train acc: 0.8404 |  val loss: 0.3770 |  val acc: 0.8400 |  auc: 0.9393 |  time: 57.9601 |
+epoches: 0046 |  train loss: 0.3368 |  train acc: 0.8609 |  val loss: 0.3506 |  val acc: 0.8289 |  auc: 0.9404 |  time: 58.1695 |
+test loss: 0.4604  test acc: 0.8183  test Auc: 0.8988
+epoches: 0047 |  train loss: 0.3250 |  train acc: 0.8618 |  val loss: 0.3335 |  val acc: 0.8356 |  auc: 0.9421 |  time: 57.7265 |
+epoches: 0048 |  train loss: 0.3427 |  train acc: 0.8516 |  val loss: 0.3697 |  val acc: 0.8733 |  auc: 0.9414 |  time: 58.0844 |
+test loss: 0.4218  test acc: 0.8274  test Auc: 0.8975
+epoches: 0049 |  train loss: 0.3410 |  train acc: 0.8577 |  val loss: 0.3576 |  val acc: 0.8622 |  auc: 0.9430 |  time: 58.1516 |
+epoches: 0050 |  train loss: 0.3692 |  train acc: 0.8458 |  val loss: 0.3437 |  val acc: 0.8444 |  auc: 0.9426 |  time: 58.1461 |
+test loss: 0.4045  test acc: 0.8305  test Auc: 0.9017
+epoches: 0051 |  train loss: 0.3135 |  train acc: 0.8669 |  val loss: 0.3677 |  val acc: 0.8356 |  auc: 0.9446 |  time: 57.6535 |
+epoches: 0052 |  train loss: 0.3232 |  train acc: 0.8625 |  val loss: 0.3306 |  val acc: 0.8622 |  auc: 0.9441 |  time: 58.1483 |
+test loss: 0.4440  test acc: 0.8286  test Auc: 0.8963
+epoches: 0053 |  train loss: 0.3589 |  train acc: 0.8479 |  val loss: 0.3933 |  val acc: 0.8422 |  auc: 0.9440 |  time: 57.7039 |
+epoches: 0054 |  train loss: 0.3195 |  train acc: 0.8655 |  val loss: 0.3517 |  val acc: 0.8711 |  auc: 0.9469 |  time: 59.1274 |
+test loss: 0.4461  test acc: 0.8454  test Auc: 0.9056
+epoches: 0055 |  train loss: 0.2958 |  train acc: 0.8752 |  val loss: 0.3299 |  val acc: 0.8422 |  auc: 0.9499 |  time: 58.3175 |
+epoches: 0056 |  train loss: 0.3211 |  train acc: 0.8651 |  val loss: 0.3642 |  val acc: 0.8622 |  auc: 0.9480 |  time: 58.7565 |
+test loss: 0.4224  test acc: 0.8531  test Auc: 0.9066
+epoches: 0057 |  train loss: 0.2868 |  train acc: 0.8818 |  val loss: 0.3446 |  val acc: 0.8533 |  auc: 0.9486 |  time: 57.9120 |
+epoches: 0058 |  train loss: 0.3594 |  train acc: 0.8443 |  val loss: 0.3641 |  val acc: 0.8444 |  auc: 0.9491 |  time: 58.2281 |
+test loss: 0.4150  test acc: 0.8240  test Auc: 0.8928
+epoches: 0059 |  train loss: 0.2868 |  train acc: 0.8788 |  val loss: 0.3421 |  val acc: 0.8289 |  auc: 0.9522 |  time: 58.6352 |
+epoches: 0060 |  train loss: 0.3304 |  train acc: 0.8616 |  val loss: 0.3494 |  val acc: 0.8400 |  auc: 0.9532 |  time: 58.7650 |
+test loss: 0.4210  test acc: 0.8025  test Auc: 0.8995
+epoches: 0061 |  train loss: 0.3199 |  train acc: 0.8647 |  val loss: 0.3610 |  val acc: 0.8511 |  auc: 0.9513 |  time: 57.8164 |
+epoches: 0062 |  train loss: 0.3075 |  train acc: 0.8748 |  val loss: 0.3408 |  val acc: 0.8356 |  auc: 0.9527 |  time: 58.7385 |
+test loss: 0.4926  test acc: 0.8008  test Auc: 0.9040
+epoches: 0063 |  train loss: 0.2982 |  train acc: 0.8693 |  val loss: 0.3379 |  val acc: 0.8733 |  auc: 0.9549 |  time: 58.2300 |
+epoches: 0064 |  train loss: 0.3105 |  train acc: 0.8744 |  val loss: 0.2941 |  val acc: 0.8667 |  auc: 0.9535 |  time: 58.6585 |
+test loss: 0.4133  test acc: 0.8161  test Auc: 0.9122
+epoches: 0065 |  train loss: 0.2844 |  train acc: 0.8799 |  val loss: 0.3435 |  val acc: 0.8133 |  auc: 0.9554 |  time: 58.7401 |
+epoches: 0066 |  train loss: 0.3105 |  train acc: 0.8704 |  val loss: 0.3088 |  val acc: 0.8467 |  auc: 0.9528 |  time: 57.9311 |
+test loss: 0.4189  test acc: 0.8370  test Auc: 0.9090
+epoches: 0067 |  train loss: 0.2697 |  train acc: 0.8907 |  val loss: 0.3168 |  val acc: 0.8467 |  auc: 0.9580 |  time: 57.8169 |
+epoches: 0068 |  train loss: 0.2686 |  train acc: 0.8847 |  val loss: 0.3191 |  val acc: 0.8667 |  auc: 0.9586 |  time: 57.9470 |
+test loss: 0.4115  test acc: 0.8397  test Auc: 0.9167
+epoches: 0069 |  train loss: 0.2842 |  train acc: 0.8815 |  val loss: 0.3420 |  val acc: 0.8711 |  auc: 0.9558 |  time: 57.7987 |
+epoches: 0070 |  train loss: 0.3079 |  train acc: 0.8727 |  val loss: 0.3250 |  val acc: 0.8578 |  auc: 0.9583 |  time: 57.8379 |
+test loss: 0.4001  test acc: 0.8147  test Auc: 0.9181
+epoches: 0071 |  train loss: 0.2953 |  train acc: 0.8785 |  val loss: 0.3092 |  val acc: 0.8622 |  auc: 0.9575 |  time: 57.8759 |
+epoches: 0072 |  train loss: 0.2776 |  train acc: 0.8854 |  val loss: 0.3712 |  val acc: 0.8333 |  auc: 0.9594 |  time: 58.2879 |
+test loss: 0.4029  test acc: 0.8337  test Auc: 0.9125
+epoches: 0073 |  train loss: 0.2649 |  train acc: 0.8930 |  val loss: 0.3667 |  val acc: 0.8467 |  auc: 0.9603 |  time: 58.3353 |
+epoches: 0074 |  train loss: 0.2812 |  train acc: 0.8851 |  val loss: 0.3288 |  val acc: 0.8378 |  auc: 0.9597 |  time: 58.0050 |
+test loss: 0.3915  test acc: 0.8362  test Auc: 0.9172
+epoches: 0075 |  train loss: 0.2840 |  train acc: 0.8801 |  val loss: 0.3220 |  val acc: 0.8511 |  auc: 0.9615 |  time: 57.9485 |
+epoches: 0076 |  train loss: 0.2496 |  train acc: 0.9022 |  val loss: 0.3368 |  val acc: 0.8844 |  auc: 0.9624 |  time: 65.3777 |
+test loss: 0.4051  test acc: 0.8343  test Auc: 0.9112
+epoches: 0077 |  train loss: 0.2702 |  train acc: 0.8845 |  val loss: 0.3305 |  val acc: 0.7867 |  auc: 0.9636 |  time: 65.8734 |
+epoches: 0078 |  train loss: 0.2623 |  train acc: 0.8896 |  val loss: 0.2812 |  val acc: 0.8489 |  auc: 0.9655 |  time: 64.2734 |
+test loss: 0.3921  test acc: 0.8598  test Auc: 0.9094
+epoches: 0079 |  train loss: 0.2535 |  train acc: 0.8953 |  val loss: 0.3277 |  val acc: 0.8556 |  auc: 0.9635 |  time: 58.1031 |
+epoches: 0080 |  train loss: 0.2556 |  train acc: 0.8939 |  val loss: 0.3685 |  val acc: 0.8489 |  auc: 0.9629 |  time: 57.8757 |
+test loss: 0.4315  test acc: 0.8364  test Auc: 0.9186
+epoches: 0081 |  train loss: 0.3077 |  train acc: 0.8767 |  val loss: 0.3248 |  val acc: 0.8311 |  auc: 0.9630 |  time: 58.5885 |
+epoches: 0082 |  train loss: 0.2458 |  train acc: 0.8945 |  val loss: 0.2861 |  val acc: 0.8844 |  auc: 0.9632 |  time: 57.9082 |
+test loss: 0.3993  test acc: 0.8379  test Auc: 0.9145
+epoches: 0083 |  train loss: 0.2629 |  train acc: 0.8908 |  val loss: 0.3036 |  val acc: 0.8889 |  auc: 0.9652 |  time: 57.6862 |
+epoches: 0084 |  train loss: 0.2448 |  train acc: 0.9025 |  val loss: 0.3111 |  val acc: 0.8689 |  auc: 0.9660 |  time: 57.9475 |
+test loss: 0.4188  test acc: 0.8413  test Auc: 0.9151
+epoches: 0085 |  train loss: 0.2420 |  train acc: 0.9048 |  val loss: 0.3417 |  val acc: 0.8378 |  auc: 0.9662 |  time: 57.8604 |
+epoches: 0086 |  train loss: 0.2539 |  train acc: 0.8962 |  val loss: 0.2723 |  val acc: 0.9089 |  auc: 0.9650 |  time: 58.1188 |
+test loss: 0.4137  test acc: 0.8554  test Auc: 0.9151
+epoches: 0087 |  train loss: 0.2943 |  train acc: 0.8775 |  val loss: 0.3411 |  val acc: 0.8533 |  auc: 0.9657 |  time: 58.0017 |
+epoches: 0088 |  train loss: 0.2873 |  train acc: 0.8826 |  val loss: 0.3550 |  val acc: 0.8556 |  auc: 0.9676 |  time: 58.0651 |
+test loss: 0.3977  test acc: 0.8279  test Auc: 0.9101
+epoches: 0089 |  train loss: 0.2411 |  train acc: 0.9011 |  val loss: 0.3495 |  val acc: 0.8644 |  auc: 0.9671 |  time: 57.7774 |
+epoches: 0090 |  train loss: 0.2473 |  train acc: 0.8985 |  val loss: 0.3007 |  val acc: 0.8644 |  auc: 0.9658 |  time: 57.8312 |
+test loss: 0.3941  test acc: 0.8483  test Auc: 0.9211
+epoches: 0091 |  train loss: 0.2362 |  train acc: 0.9035 |  val loss: 0.2995 |  val acc: 0.8400 |  auc: 0.9697 |  time: 57.8931 |
+epoches: 0092 |  train loss: 0.2649 |  train acc: 0.8926 |  val loss: 0.3159 |  val acc: 0.8733 |  auc: 0.9686 |  time: 57.8390 |
+test loss: 0.4396  test acc: 0.8409  test Auc: 0.9194
+epoches: 0093 |  train loss: 0.2747 |  train acc: 0.8962 |  val loss: 0.3139 |  val acc: 0.9000 |  auc: 0.9673 |  time: 58.7869 |
+epoches: 0094 |  train loss: 0.2224 |  train acc: 0.9084 |  val loss: 0.2967 |  val acc: 0.8778 |  auc: 0.9688 |  time: 70.7183 |
+test loss: 0.4343  test acc: 0.8534  test Auc: 0.9221
+epoches: 0095 |  train loss: 0.2659 |  train acc: 0.8943 |  val loss: 0.3142 |  val acc: 0.8867 |  auc: 0.9693 |  time: 71.3749 |
+epoches: 0096 |  train loss: 0.2243 |  train acc: 0.9049 |  val loss: 0.3198 |  val acc: 0.8667 |  auc: 0.9690 |  time: 65.4439 |
+test loss: 0.4141  test acc: 0.8632  test Auc: 0.9228
+epoches: 0097 |  train loss: 0.2273 |  train acc: 0.9072 |  val loss: 0.2963 |  val acc: 0.8556 |  auc: 0.9695 |  time: 63.0523 |
+epoches: 0098 |  train loss: 0.2360 |  train acc: 0.9050 |  val loss: 0.2494 |  val acc: 0.8600 |  auc: 0.9697 |  time: 63.8976 |
+test loss: 0.4119  test acc: 0.8203  test Auc: 0.9235
+epoches: 0099 |  train loss: 0.2147 |  train acc: 0.9091 |  val loss: 0.2995 |  val acc: 0.8911 |  auc: 0.9707 |  time: 60.4283 |
+epoches: 0100 |  train loss: 0.2291 |  train acc: 0.9077 |  val loss: 0.3006 |  val acc: 0.8978 |  auc: 0.9721 |  time: 76.0452 |
+test loss: 0.4011  test acc: 0.8472  test Auc: 0.9234
+epoches: 0101 |  train loss: 0.2105 |  train acc: 0.9140 |  val loss: 0.2908 |  val acc: 0.8733 |  auc: 0.9714 |  time: 59.6539 |
+epoches: 0102 |  train loss: 0.2278 |  train acc: 0.9053 |  val loss: 0.2803 |  val acc: 0.8556 |  auc: 0.9715 |  time: 59.7527 |
+test loss: 0.4101  test acc: 0.8195  test Auc: 0.9172
+epoches: 0103 |  train loss: 0.2239 |  train acc: 0.9088 |  val loss: 0.3586 |  val acc: 0.8578 |  auc: 0.9728 |  time: 61.6461 |
+epoches: 0104 |  train loss: 0.2228 |  train acc: 0.9132 |  val loss: 0.2956 |  val acc: 0.8689 |  auc: 0.9733 |  time: 61.0942 |
+test loss: 0.3856  test acc: 0.8338  test Auc: 0.9181
+epoches: 0105 |  train loss: 0.2242 |  train acc: 0.9092 |  val loss: 0.2811 |  val acc: 0.8667 |  auc: 0.9727 |  time: 63.3201 |
+epoches: 0106 |  train loss: 0.2300 |  train acc: 0.9084 |  val loss: 0.2802 |  val acc: 0.8289 |  auc: 0.9738 |  time: 61.3027 |
+test loss: 0.3874  test acc: 0.8200  test Auc: 0.9165
+epoches: 0107 |  train loss: 0.2146 |  train acc: 0.9120 |  val loss: 0.3063 |  val acc: 0.8622 |  auc: 0.9724 |  time: 62.3887 |
+epoches: 0108 |  train loss: 0.2269 |  train acc: 0.9128 |  val loss: 0.3024 |  val acc: 0.8889 |  auc: 0.9724 |  time: 74.0732 |
+test loss: 0.4129  test acc: 0.8458  test Auc: 0.9178
+epoches: 0109 |  train loss: 0.2199 |  train acc: 0.9103 |  val loss: 0.3141 |  val acc: 0.8311 |  auc: 0.9732 |  time: 60.7918 |
+epoches: 0110 |  train loss: 0.2123 |  train acc: 0.9122 |  val loss: 0.3249 |  val acc: 0.8600 |  auc: 0.9733 |  time: 64.8419 |
+test loss: 0.4294  test acc: 0.8615  test Auc: 0.9216
+epoches: 0111 |  train loss: 0.2031 |  train acc: 0.9219 |  val loss: 0.2690 |  val acc: 0.8933 |  auc: 0.9743 |  time: 65.1811 |
+epoches: 0112 |  train loss: 0.2169 |  train acc: 0.9119 |  val loss: 0.3035 |  val acc: 0.8400 |  auc: 0.9740 |  time: 62.5930 |
+test loss: 0.4421  test acc: 0.8415  test Auc: 0.9181
+epoches: 0113 |  train loss: 0.2197 |  train acc: 0.9140 |  val loss: 0.2760 |  val acc: 0.8533 |  auc: 0.9767 |  time: 71.2183 |
+epoches: 0114 |  train loss: 0.2285 |  train acc: 0.9104 |  val loss: 0.2769 |  val acc: 0.8844 |  auc: 0.9755 |  time: 67.2973 |
+test loss: 0.4088  test acc: 0.8438  test Auc: 0.9271
+epoches: 0115 |  train loss: 0.2080 |  train acc: 0.9198 |  val loss: 0.3311 |  val acc: 0.8822 |  auc: 0.9740 |  time: 66.3277 |
+epoches: 0116 |  train loss: 0.2209 |  train acc: 0.9136 |  val loss: 0.2479 |  val acc: 0.8844 |  auc: 0.9753 |  time: 68.1966 |
+test loss: 0.4347  test acc: 0.8541  test Auc: 0.9210
+epoches: 0117 |  train loss: 0.1980 |  train acc: 0.9179 |  val loss: 0.2827 |  val acc: 0.8889 |  auc: 0.9756 |  time: 79.5622 |
+epoches: 0118 |  train loss: 0.1924 |  train acc: 0.9214 |  val loss: 0.2779 |  val acc: 0.8511 |  auc: 0.9762 |  time: 77.8608 |
+test loss: 0.3910  test acc: 0.8401  test Auc: 0.9217
+epoches: 0119 |  train loss: 0.2653 |  train acc: 0.8956 |  val loss: 0.2686 |  val acc: 0.8578 |  auc: 0.9758 |  time: 63.0963 |
+epoches: 0120 |  train loss: 0.1904 |  train acc: 0.9252 |  val loss: 0.2373 |  val acc: 0.8689 |  auc: 0.9757 |  time: 59.2936 |
+test loss: 0.4223  test acc: 0.8478  test Auc: 0.9246
+epoches: 0121 |  train loss: 0.2137 |  train acc: 0.9133 |  val loss: 0.3176 |  val acc: 0.8822 |  auc: 0.9754 |  time: 59.8518 |
+epoches: 0122 |  train loss: 0.2073 |  train acc: 0.9199 |  val loss: 0.2653 |  val acc: 0.8956 |  auc: 0.9766 |  time: 58.7308 |
+test loss: 0.4195  test acc: 0.8442  test Auc: 0.9258
+epoches: 0123 |  train loss: 0.1895 |  train acc: 0.9239 |  val loss: 0.2568 |  val acc: 0.8644 |  auc: 0.9771 |  time: 58.5856 |
+epoches: 0124 |  train loss: 0.2251 |  train acc: 0.9087 |  val loss: 0.2481 |  val acc: 0.8911 |  auc: 0.9784 |  time: 58.4163 |
+test loss: 0.4068  test acc: 0.8455  test Auc: 0.9186
+epoches: 0125 |  train loss: 0.1843 |  train acc: 0.9271 |  val loss: 0.2919 |  val acc: 0.9022 |  auc: 0.9773 |  time: 58.3477 |
+epoches: 0126 |  train loss: 0.2164 |  train acc: 0.9129 |  val loss: 0.2691 |  val acc: 0.9000 |  auc: 0.9760 |  time: 58.4210 |
+test loss: 0.3868  test acc: 0.8224  test Auc: 0.9233
+epoches: 0127 |  train loss: 0.1765 |  train acc: 0.9255 |  val loss: 0.2690 |  val acc: 0.8778 |  auc: 0.9782 |  time: 58.4285 |
+epoches: 0128 |  train loss: 0.2378 |  train acc: 0.9033 |  val loss: 0.2572 |  val acc: 0.8711 |  auc: 0.9790 |  time: 58.5977 |
+test loss: 0.4119  test acc: 0.8108  test Auc: 0.9257
+epoches: 0129 |  train loss: 0.1891 |  train acc: 0.9276 |  val loss: 0.2416 |  val acc: 0.8711 |  auc: 0.9783 |  time: 60.1226 |
+epoches: 0130 |  train loss: 0.1883 |  train acc: 0.9251 |  val loss: 0.2738 |  val acc: 0.8844 |  auc: 0.9791 |  time: 58.7420 |
+test loss: 0.4069  test acc: 0.8621  test Auc: 0.9288
+epoches: 0131 |  train loss: 0.1729 |  train acc: 0.9335 |  val loss: 0.2823 |  val acc: 0.9044 |  auc: 0.9799 |  time: 58.9472 |
+epoches: 0132 |  train loss: 0.2004 |  train acc: 0.9183 |  val loss: 0.2876 |  val acc: 0.8689 |  auc: 0.9788 |  time: 58.3116 |
+test loss: 0.4202  test acc: 0.8357  test Auc: 0.9228
+epoches: 0133 |  train loss: 0.1877 |  train acc: 0.9286 |  val loss: 0.2919 |  val acc: 0.8511 |  auc: 0.9791 |  time: 59.2350 |
+epoches: 0134 |  train loss: 0.1753 |  train acc: 0.9316 |  val loss: 0.2728 |  val acc: 0.8822 |  auc: 0.9794 |  time: 58.6371 |
+test loss: 0.4405  test acc: 0.8240  test Auc: 0.9161
+epoches: 0135 |  train loss: 0.1857 |  train acc: 0.9290 |  val loss: 0.2450 |  val acc: 0.8511 |  auc: 0.9799 |  time: 58.7847 |
+epoches: 0136 |  train loss: 0.1767 |  train acc: 0.9306 |  val loss: 0.2568 |  val acc: 0.8756 |  auc: 0.9792 |  time: 58.7866 |
+test loss: 0.3821  test acc: 0.8206  test Auc: 0.9216
+epoches: 0137 |  train loss: 0.1871 |  train acc: 0.9257 |  val loss: 0.2450 |  val acc: 0.8956 |  auc: 0.9816 |  time: 59.0969 |
+epoches: 0138 |  train loss: 0.1770 |  train acc: 0.9330 |  val loss: 0.3053 |  val acc: 0.8689 |  auc: 0.9820 |  time: 58.4577 |
+test loss: 0.4068  test acc: 0.8193  test Auc: 0.9256
+epoches: 0139 |  train loss: 0.1728 |  train acc: 0.9370 |  val loss: 0.2756 |  val acc: 0.8889 |  auc: 0.9814 |  time: 58.6423 |
+epoches: 0140 |  train loss: 0.1820 |  train acc: 0.9259 |  val loss: 0.2814 |  val acc: 0.8978 |  auc: 0.9821 |  time: 58.4285 |
+test loss: 0.4419  test acc: 0.8321  test Auc: 0.9155
+epoches: 0141 |  train loss: 0.1697 |  train acc: 0.9370 |  val loss: 0.2632 |  val acc: 0.8889 |  auc: 0.9824 |  time: 58.7558 |
+epoches: 0142 |  train loss: 0.1798 |  train acc: 0.9287 |  val loss: 0.3001 |  val acc: 0.8933 |  auc: 0.9815 |  time: 58.7649 |
+test loss: 0.4490  test acc: 0.8530  test Auc: 0.9277
+epoches: 0143 |  train loss: 0.1920 |  train acc: 0.9245 |  val loss: 0.2385 |  val acc: 0.8956 |  auc: 0.9819 |  time: 58.7179 |
+epoches: 0144 |  train loss: 0.1666 |  train acc: 0.9319 |  val loss: 0.3163 |  val acc: 0.8889 |  auc: 0.9810 |  time: 58.9587 |
+test loss: 0.4451  test acc: 0.8015  test Auc: 0.9277
+epoches: 0145 |  train loss: 0.1925 |  train acc: 0.9229 |  val loss: 0.2034 |  val acc: 0.8600 |  auc: 0.9820 |  time: 58.5947 |
+epoches: 0146 |  train loss: 0.1584 |  train acc: 0.9419 |  val loss: 0.2569 |  val acc: 0.8933 |  auc: 0.9825 |  time: 58.5934 |
+test loss: 0.4229  test acc: 0.8264  test Auc: 0.9201
+epoches: 0147 |  train loss: 0.1755 |  train acc: 0.9324 |  val loss: 0.2748 |  val acc: 0.8733 |  auc: 0.9826 |  time: 58.7786 |
+epoches: 0148 |  train loss: 0.1728 |  train acc: 0.9292 |  val loss: 0.2629 |  val acc: 0.9111 |  auc: 0.9830 |  time: 63.3077 |
+test loss: 0.4256  test acc: 0.8343  test Auc: 0.9260
+epoches: 0149 |  train loss: 0.1676 |  train acc: 0.9339 |  val loss: 0.2394 |  val acc: 0.9044 |  auc: 0.9835 |  time: 66.8460 |
+epoches: 0150 |  train loss: 0.1675 |  train acc: 0.9349 |  val loss: 0.2858 |  val acc: 0.8978 |  auc: 0.9830 |  time: 71.6152 |
+test loss: 0.4712  test acc: 0.8332  test Auc: 0.9212
+epoches: 0151 |  train loss: 0.1956 |  train acc: 0.9211 |  val loss: 0.2419 |  val acc: 0.8844 |  auc: 0.9835 |  time: 59.0078 |
+epoches: 0152 |  train loss: 0.1901 |  train acc: 0.9255 |  val loss: 0.2257 |  val acc: 0.8933 |  auc: 0.9830 |  time: 59.1574 |
+test loss: 0.4458  test acc: 0.8255  test Auc: 0.9124
+epoches: 0153 |  train loss: 0.1751 |  train acc: 0.9309 |  val loss: 0.2621 |  val acc: 0.9044 |  auc: 0.9842 |  time: 59.1507 |
+epoches: 0154 |  train loss: 0.1566 |  train acc: 0.9406 |  val loss: 0.2970 |  val acc: 0.9133 |  auc: 0.9843 |  time: 60.0436 |
+test loss: 0.4693  test acc: 0.8030  test Auc: 0.9219
+epoches: 0155 |  train loss: 0.1900 |  train acc: 0.9242 |  val loss: 0.2832 |  val acc: 0.8533 |  auc: 0.9837 |  time: 76.9293 |
+epoches: 0156 |  train loss: 0.1613 |  train acc: 0.9390 |  val loss: 0.2420 |  val acc: 0.9000 |  auc: 0.9852 |  time: 66.0634 |
+test loss: 0.4937  test acc: 0.8060  test Auc: 0.9255
+epoches: 0157 |  train loss: 0.1643 |  train acc: 0.9388 |  val loss: 0.2219 |  val acc: 0.9178 |  auc: 0.9858 |  time: 67.9361 |
+epoches: 0158 |  train loss: 0.1604 |  train acc: 0.9361 |  val loss: 0.2827 |  val acc: 0.8956 |  auc: 0.9853 |  time: 78.0563 |
+test loss: 0.4756  test acc: 0.8183  test Auc: 0.9179
+epoches: 0159 |  train loss: 0.1636 |  train acc: 0.9394 |  val loss: 0.2586 |  val acc: 0.8978 |  auc: 0.9845 |  time: 82.8282 |
+epoches: 0160 |  train loss: 0.1551 |  train acc: 0.9389 |  val loss: 0.2477 |  val acc: 0.9067 |  auc: 0.9832 |  time: 89.9244 |
+test loss: 0.4641  test acc: 0.8160  test Auc: 0.9219
+epoches: 0161 |  train loss: 0.1634 |  train acc: 0.9407 |  val loss: 0.2359 |  val acc: 0.8867 |  auc: 0.9844 |  time: 84.3301 |
+epoches: 0162 |  train loss: 0.1539 |  train acc: 0.9418 |  val loss: 0.2785 |  val acc: 0.8911 |  auc: 0.9861 |  time: 84.7134 |
+test loss: 0.4919  test acc: 0.8431  test Auc: 0.9230
+epoches: 0163 |  train loss: 0.1582 |  train acc: 0.9341 |  val loss: 0.2876 |  val acc: 0.8978 |  auc: 0.9854 |  time: 85.3329 |
+epoches: 0164 |  train loss: 0.1864 |  train acc: 0.9250 |  val loss: 0.2178 |  val acc: 0.9067 |  auc: 0.9835 |  time: 84.5937 |
+test loss: 0.4275  test acc: 0.8389  test Auc: 0.9185
+epoches: 0165 |  train loss: 0.1599 |  train acc: 0.9380 |  val loss: 0.2314 |  val acc: 0.9200 |  auc: 0.9837 |  time: 91.1085 |
+epoches: 0166 |  train loss: 0.1514 |  train acc: 0.9412 |  val loss: 0.2039 |  val acc: 0.8978 |  auc: 0.9843 |  time: 85.2231 |
+test loss: 0.4594  test acc: 0.8146  test Auc: 0.9227
+epoches: 0167 |  train loss: 0.1641 |  train acc: 0.9374 |  val loss: 0.2607 |  val acc: 0.8667 |  auc: 0.9861 |  time: 84.2191 |
+epoches: 0168 |  train loss: 0.1598 |  train acc: 0.9377 |  val loss: 0.2477 |  val acc: 0.8956 |  auc: 0.9843 |  time: 83.8859 |
+test loss: 0.4622  test acc: 0.8539  test Auc: 0.9194
+epoches: 0169 |  train loss: 0.1440 |  train acc: 0.9433 |  val loss: 0.2769 |  val acc: 0.9178 |  auc: 0.9862 |  time: 85.2404 |
+epoches: 0170 |  train loss: 0.1551 |  train acc: 0.9411 |  val loss: 0.3259 |  val acc: 0.8778 |  auc: 0.9854 |  time: 84.4459 |
+test loss: 0.4523  test acc: 0.8332  test Auc: 0.9185
+epoches: 0171 |  train loss: 0.1606 |  train acc: 0.9404 |  val loss: 0.2831 |  val acc: 0.8911 |  auc: 0.9856 |  time: 84.5376 |
+epoches: 0172 |  train loss: 0.1636 |  train acc: 0.9367 |  val loss: 0.2761 |  val acc: 0.9178 |  auc: 0.9865 |  time: 85.7791 |
+test loss: 0.5154  test acc: 0.8015  test Auc: 0.9209
+epoches: 0173 |  train loss: 0.1478 |  train acc: 0.9425 |  val loss: 0.2140 |  val acc: 0.9044 |  auc: 0.9849 |  time: 84.1914 |
+epoches: 0174 |  train loss: 0.1566 |  train acc: 0.9402 |  val loss: 0.2230 |  val acc: 0.9044 |  auc: 0.9863 |  time: 84.1202 |
+test loss: 0.4587  test acc: 0.8283  test Auc: 0.9090
+epoches: 0175 |  train loss: 0.1440 |  train acc: 0.9442 |  val loss: 0.2633 |  val acc: 0.8956 |  auc: 0.9862 |  time: 86.0120 |
+epoches: 0176 |  train loss: 0.1450 |  train acc: 0.9451 |  val loss: 0.2405 |  val acc: 0.9156 |  auc: 0.9872 |  time: 94.9955 |
+test loss: 0.4083  test acc: 0.8426  test Auc: 0.9242
+epoches: 0177 |  train loss: 0.1639 |  train acc: 0.9375 |  val loss: 0.3158 |  val acc: 0.8822 |  auc: 0.9860 |  time: 95.7570 |
+epoches: 0178 |  train loss: 0.1462 |  train acc: 0.9457 |  val loss: 0.3006 |  val acc: 0.8778 |  auc: 0.9870 |  time: 95.7999 |
+test loss: 0.4674  test acc: 0.8034  test Auc: 0.9143
+epoches: 0179 |  train loss: 0.1530 |  train acc: 0.9396 |  val loss: 0.3052 |  val acc: 0.8644 |  auc: 0.9873 |  time: 95.9230 |
+epoches: 0180 |  train loss: 0.1719 |  train acc: 0.9310 |  val loss: 0.2280 |  val acc: 0.8844 |  auc: 0.9873 |  time: 96.9241 |
+test loss: 0.4455  test acc: 0.8503  test Auc: 0.9173
+epoches: 0181 |  train loss: 0.1467 |  train acc: 0.9434 |  val loss: 0.2751 |  val acc: 0.8778 |  auc: 0.9873 |  time: 72.5135 |
+epoches: 0182 |  train loss: 0.1451 |  train acc: 0.9468 |  val loss: 0.2096 |  val acc: 0.9044 |  auc: 0.9879 |  time: 71.0823 |
+test loss: 0.4674  test acc: 0.8216  test Auc: 0.9220
+epoches: 0183 |  train loss: 0.1493 |  train acc: 0.9409 |  val loss: 0.3155 |  val acc: 0.8756 |  auc: 0.9874 |  time: 61.5412 |
+epoches: 0184 |  train loss: 0.1417 |  train acc: 0.9472 |  val loss: 0.2681 |  val acc: 0.9000 |  auc: 0.9879 |  time: 61.7858 |
+test loss: 0.4201  test acc: 0.8380  test Auc: 0.9271
+epoches: 0185 |  train loss: 0.1445 |  train acc: 0.9512 |  val loss: 0.2712 |  val acc: 0.9044 |  auc: 0.9876 |  time: 60.8723 |
+epoches: 0186 |  train loss: 0.1388 |  train acc: 0.9475 |  val loss: 0.2741 |  val acc: 0.9222 |  auc: 0.9878 |  time: 64.0697 |
+test loss: 0.4831  test acc: 0.8320  test Auc: 0.9171
+epoches: 0187 |  train loss: 0.1351 |  train acc: 0.9502 |  val loss: 0.2482 |  val acc: 0.9311 |  auc: 0.9876 |  time: 57.9569 |
+epoches: 0188 |  train loss: 0.1604 |  train acc: 0.9379 |  val loss: 0.2498 |  val acc: 0.8911 |  auc: 0.9885 |  time: 57.7667 |
+test loss: 0.4992  test acc: 0.8180  test Auc: 0.9226
+epoches: 0189 |  train loss: 0.1391 |  train acc: 0.9481 |  val loss: 0.2819 |  val acc: 0.9044 |  auc: 0.9879 |  time: 57.7614 |
+epoches: 0190 |  train loss: 0.1305 |  train acc: 0.9473 |  val loss: 0.2302 |  val acc: 0.9133 |  auc: 0.9889 |  time: 57.6267 |
+test loss: 0.4976  test acc: 0.8077  test Auc: 0.9189
+epoches: 0191 |  train loss: 0.1409 |  train acc: 0.9506 |  val loss: 0.2713 |  val acc: 0.8889 |  auc: 0.9886 |  time: 57.8959 |
+epoches: 0192 |  train loss: 0.1355 |  train acc: 0.9506 |  val loss: 0.3107 |  val acc: 0.9289 |  auc: 0.9878 |  time: 57.7731 |
+test loss: 0.4578  test acc: 0.8022  test Auc: 0.9190
+epoches: 0193 |  train loss: 0.1442 |  train acc: 0.9458 |  val loss: 0.2833 |  val acc: 0.8689 |  auc: 0.9891 |  time: 59.5783 |
+epoches: 0194 |  train loss: 0.1368 |  train acc: 0.9469 |  val loss: 0.2755 |  val acc: 0.8533 |  auc: 0.9884 |  time: 63.1260 |
+test loss: 0.4639  test acc: 0.8156  test Auc: 0.9206
+epoches: 0195 |  train loss: 0.1424 |  train acc: 0.9441 |  val loss: 0.2337 |  val acc: 0.8956 |  auc: 0.9888 |  time: 58.9388 |
+epoches: 0196 |  train loss: 0.1639 |  train acc: 0.9400 |  val loss: 0.2059 |  val acc: 0.9267 |  auc: 0.9892 |  time: 61.4400 |
+test loss: 0.4547  test acc: 0.8215  test Auc: 0.9244
+epoches: 0197 |  train loss: 0.1353 |  train acc: 0.9523 |  val loss: 0.2589 |  val acc: 0.9400 |  auc: 0.9892 |  time: 69.9498 |
+epoches: 0198 |  train loss: 0.1463 |  train acc: 0.9470 |  val loss: 0.2622 |  val acc: 0.9067 |  auc: 0.9890 |  time: 79.1276 |
+test loss: 0.4559  test acc: 0.8367  test Auc: 0.9226
+epoches: 0199 |  train loss: 0.1289 |  train acc: 0.9477 |  val loss: 0.2757 |  val acc: 0.8911 |  auc: 0.9901 |  time: 70.7613 |
+epoches: 0200 |  train loss: 0.1366 |  train acc: 0.9505 |  val loss: 0.2635 |  val acc: 0.8778 |  auc: 0.9899 |  time: 91.3629 |
+test loss: 0.4701  test acc: 0.8081  test Auc: 0.9223
+epoches: 0201 |  train loss: 0.1403 |  train acc: 0.9461 |  val loss: 0.2715 |  val acc: 0.8622 |  auc: 0.9906 |  time: 99.8200 |
+epoches: 0202 |  train loss: 0.1233 |  train acc: 0.9531 |  val loss: 0.2496 |  val acc: 0.9000 |  auc: 0.9891 |  time: 125.3269 |
+test loss: 0.4757  test acc: 0.8329  test Auc: 0.9130
+epoches: 0203 |  train loss: 0.1386 |  train acc: 0.9472 |  val loss: 0.2634 |  val acc: 0.9111 |  auc: 0.9901 |  time: 115.6733 |
+epoches: 0204 |  train loss: 0.1271 |  train acc: 0.9508 |  val loss: 0.2943 |  val acc: 0.9000 |  auc: 0.9895 |  time: 122.7601 |
+test loss: 0.4983  test acc: 0.8255  test Auc: 0.9141
+epoches: 0205 |  train loss: 0.1410 |  train acc: 0.9467 |  val loss: 0.2183 |  val acc: 0.8844 |  auc: 0.9891 |  time: 119.7770 |
+epoches: 0206 |  train loss: 0.1212 |  train acc: 0.9572 |  val loss: 0.2518 |  val acc: 0.8956 |  auc: 0.9890 |  time: 166.6043 |
+test loss: 0.5056  test acc: 0.8037  test Auc: 0.9210
+epoches: 0207 |  train loss: 0.1252 |  train acc: 0.9511 |  val loss: 0.2133 |  val acc: 0.9044 |  auc: 0.9906 |  time: 184.3016 |
+epoches: 0208 |  train loss: 0.1269 |  train acc: 0.9528 |  val loss: 0.2667 |  val acc: 0.9000 |  auc: 0.9901 |  time: 131.9700 |
+test loss: 0.4794  test acc: 0.8098  test Auc: 0.9245
+epoches: 0209 |  train loss: 0.1175 |  train acc: 0.9575 |  val loss: 0.2768 |  val acc: 0.8867 |  auc: 0.9908 |  time: 120.1090 |
+epoches: 0210 |  train loss: 0.1293 |  train acc: 0.9511 |  val loss: 0.2290 |  val acc: 0.9333 |  auc: 0.9901 |  time: 96.2942 |
+test loss: 0.4734  test acc: 0.8328  test Auc: 0.9126
+epoches: 0211 |  train loss: 0.1373 |  train acc: 0.9465 |  val loss: 0.2698 |  val acc: 0.9111 |  auc: 0.9894 |  time: 113.9551 |
+epoches: 0212 |  train loss: 0.1315 |  train acc: 0.9542 |  val loss: 0.3173 |  val acc: 0.8978 |  auc: 0.9894 |  time: 108.9397 |
+test loss: 0.4417  test acc: 0.8377  test Auc: 0.9197
+epoches: 0213 |  train loss: 0.1643 |  train acc: 0.9353 |  val loss: 0.3264 |  val acc: 0.8867 |  auc: 0.9901 |  time: 103.6510 |
+epoches: 0214 |  train loss: 0.1295 |  train acc: 0.9503 |  val loss: 0.2467 |  val acc: 0.9133 |  auc: 0.9899 |  time: 124.0510 |
+test loss: 0.5044  test acc: 0.8045  test Auc: 0.9224
+epoches: 0215 |  train loss: 0.1354 |  train acc: 0.9493 |  val loss: 0.3558 |  val acc: 0.8933 |  auc: 0.9901 |  time: 113.8538 |
+epoches: 0216 |  train loss: 0.1329 |  train acc: 0.9495 |  val loss: 0.2306 |  val acc: 0.9022 |  auc: 0.9899 |  time: 112.1670 |
+test loss: 0.5070  test acc: 0.8022  test Auc: 0.9276
+epoches: 0217 |  train loss: 0.1181 |  train acc: 0.9561 |  val loss: 0.2556 |  val acc: 0.9222 |  auc: 0.9899 |  time: 112.6810 |
+epoches: 0218 |  train loss: 0.1264 |  train acc: 0.9539 |  val loss: 0.2514 |  val acc: 0.8778 |  auc: 0.9908 |  time: 109.8655 |
+test loss: 0.5094  test acc: 0.8156  test Auc: 0.9256
+epoches: 0219 |  train loss: 0.1216 |  train acc: 0.9527 |  val loss: 0.2567 |  val acc: 0.9089 |  auc: 0.9911 |  time: 86.5256 |
+epoches: 0220 |  train loss: 0.1229 |  train acc: 0.9516 |  val loss: 0.2322 |  val acc: 0.9133 |  auc: 0.9902 |  time: 85.7794 |
+test loss: 0.4637  test acc: 0.8343  test Auc: 0.9177
+epoches: 0221 |  train loss: 0.1257 |  train acc: 0.9543 |  val loss: 0.2762 |  val acc: 0.9022 |  auc: 0.9917 |  time: 71.6478 |
+epoches: 0222 |  train loss: 0.1306 |  train acc: 0.9538 |  val loss: 0.2992 |  val acc: 0.8444 |  auc: 0.9907 |  time: 60.4877 |
+test loss: 0.5337  test acc: 0.7916  test Auc: 0.9124
+epoches: 0223 |  train loss: 0.1205 |  train acc: 0.9541 |  val loss: 0.2376 |  val acc: 0.8844 |  auc: 0.9918 |  time: 57.7086 |
+epoches: 0224 |  train loss: 0.1300 |  train acc: 0.9524 |  val loss: 0.2168 |  val acc: 0.9067 |  auc: 0.9923 |  time: 57.8806 |
+test loss: 0.4506  test acc: 0.8195  test Auc: 0.9143
+epoches: 0225 |  train loss: 0.1155 |  train acc: 0.9557 |  val loss: 0.2837 |  val acc: 0.9156 |  auc: 0.9920 |  time: 58.1937 |
+epoches: 0226 |  train loss: 0.1322 |  train acc: 0.9509 |  val loss: 0.2351 |  val acc: 0.9178 |  auc: 0.9920 |  time: 73.4000 |
+test loss: 0.4691  test acc: 0.8424  test Auc: 0.9160
+epoches: 0227 |  train loss: 0.1161 |  train acc: 0.9585 |  val loss: 0.2072 |  val acc: 0.9044 |  auc: 0.9921 |  time: 83.8186 |
+epoches: 0228 |  train loss: 0.1173 |  train acc: 0.9547 |  val loss: 0.2402 |  val acc: 0.9089 |  auc: 0.9920 |  time: 78.4193 |
+test loss: 0.4950  test acc: 0.8372  test Auc: 0.9243
+epoches: 0229 |  train loss: 0.1171 |  train acc: 0.9554 |  val loss: 0.2612 |  val acc: 0.8956 |  auc: 0.9916 |  time: 78.3809 |
+epoches: 0230 |  train loss: 0.1085 |  train acc: 0.9570 |  val loss: 0.2249 |  val acc: 0.9244 |  auc: 0.9914 |  time: 92.5539 |
+test loss: 0.4815  test acc: 0.8077  test Auc: 0.9254
+epoches: 0231 |  train loss: 0.1129 |  train acc: 0.9556 |  val loss: 0.2210 |  val acc: 0.9178 |  auc: 0.9923 |  time: 107.5592 |
+epoches: 0232 |  train loss: 0.1479 |  train acc: 0.9436 |  val loss: 0.2973 |  val acc: 0.8844 |  auc: 0.9909 |  time: 90.5289 |
+test loss: 0.5478  test acc: 0.8119  test Auc: 0.9210
+epoches: 0233 |  train loss: 0.1185 |  train acc: 0.9536 |  val loss: 0.2035 |  val acc: 0.9111 |  auc: 0.9909 |  time: 105.3977 |
+epoches: 0234 |  train loss: 0.1126 |  train acc: 0.9554 |  val loss: 0.2084 |  val acc: 0.9333 |  auc: 0.9917 |  time: 111.5746 |
+test loss: 0.4729  test acc: 0.8203  test Auc: 0.9288
+epoches: 0235 |  train loss: 0.1269 |  train acc: 0.9511 |  val loss: 0.2381 |  val acc: 0.8844 |  auc: 0.9922 |  time: 105.2069 |
+epoches: 0236 |  train loss: 0.1126 |  train acc: 0.9564 |  val loss: 0.2089 |  val acc: 0.9000 |  auc: 0.9921 |  time: 140.7203 |
+test loss: 0.5696  test acc: 0.8020  test Auc: 0.9264
+epoches: 0237 |  train loss: 0.1128 |  train acc: 0.9596 |  val loss: 0.2267 |  val acc: 0.9000 |  auc: 0.9918 |  time: 118.4522 |
+epoches: 0238 |  train loss: 0.1251 |  train acc: 0.9560 |  val loss: 0.2290 |  val acc: 0.8911 |  auc: 0.9918 |  time: 116.6647 |
+test loss: 0.5256  test acc: 0.8072  test Auc: 0.9296
+epoches: 0239 |  train loss: 0.1161 |  train acc: 0.9606 |  val loss: 0.2659 |  val acc: 0.8956 |  auc: 0.9919 |  time: 114.9823 |
+epoches: 0240 |  train loss: 0.1091 |  train acc: 0.9616 |  val loss: 0.2372 |  val acc: 0.9200 |  auc: 0.9918 |  time: 114.8654 |
+test loss: 0.4699  test acc: 0.8018  test Auc: 0.9151
+epoches: 0241 |  train loss: 0.3308 |  train acc: 0.8974 |  val loss: 0.5386 |  val acc: 0.8200 |  auc: 0.9877 |  time: 104.6447 |
+epoches: 0242 |  train loss: 0.2727 |  train acc: 0.8973 |  val loss: 0.4106 |  val acc: 0.8622 |  auc: 0.9823 |  time: 93.3468 |
+test loss: 0.5405  test acc: 0.8076  test Auc: 0.9273
+epoches: 0243 |  train loss: 0.1290 |  train acc: 0.9493 |  val loss: 0.2365 |  val acc: 0.8911 |  auc: 0.9892 |  time: 93.5274 |
+epoches: 0244 |  train loss: 0.1303 |  train acc: 0.9517 |  val loss: 0.2482 |  val acc: 0.9111 |  auc: 0.9888 |  time: 81.0901 |
+test loss: 0.4965  test acc: 0.8124  test Auc: 0.9199
+epoches: 0245 |  train loss: 0.1291 |  train acc: 0.9579 |  val loss: 0.2180 |  val acc: 0.9067 |  auc: 0.9903 |  time: 71.7529 |
+epoches: 0246 |  train loss: 0.1200 |  train acc: 0.9557 |  val loss: 0.1959 |  val acc: 0.8911 |  auc: 0.9911 |  time: 71.5805 |
+test loss: 0.4870  test acc: 0.8239  test Auc: 0.9238
+epoches: 0247 |  train loss: 0.1140 |  train acc: 0.9563 |  val loss: 0.2394 |  val acc: 0.9111 |  auc: 0.9908 |  time: 71.4422 |
+epoches: 0248 |  train loss: 0.1201 |  train acc: 0.9558 |  val loss: 0.2329 |  val acc: 0.9022 |  auc: 0.9907 |  time: 71.7272 |
+test loss: 0.5173  test acc: 0.8290  test Auc: 0.9248
+epoches: 0249 |  train loss: 0.1182 |  train acc: 0.9584 |  val loss: 0.2573 |  val acc: 0.9156 |  auc: 0.9906 |  time: 71.6128 |
+epoches: 0250 |  train loss: 0.1149 |  train acc: 0.9567 |  val loss: 0.3018 |  val acc: 0.9289 |  auc: 0.9921 |  time: 63.9529 |
+test loss: 0.5160  test acc: 0.8077  test Auc: 0.9238
+epoches: 0251 |  train loss: 0.1137 |  train acc: 0.9586 |  val loss: 0.2769 |  val acc: 0.9089 |  auc: 0.9926 |  time: 58.8108 |
+epoches: 0252 |  train loss: 0.1150 |  train acc: 0.9612 |  val loss: 0.2827 |  val acc: 0.8778 |  auc: 0.9926 |  time: 58.8832 |
+test loss: 0.5272  test acc: 0.8002  test Auc: 0.9160
+epoches: 0253 |  train loss: 0.1171 |  train acc: 0.9573 |  val loss: 0.2254 |  val acc: 0.8778 |  auc: 0.9926 |  time: 63.2303 |
+epoches: 0254 |  train loss: 0.1042 |  train acc: 0.9608 |  val loss: 0.2692 |  val acc: 0.9000 |  auc: 0.9918 |  time: 77.1866 |
+test loss: 0.5428  test acc: 0.7997  test Auc: 0.9102
+epoches: 0255 |  train loss: 0.1081 |  train acc: 0.9618 |  val loss: 0.2362 |  val acc: 0.9156 |  auc: 0.9917 |  time: 69.4463 |
+epoches: 0256 |  train loss: 0.1092 |  train acc: 0.9570 |  val loss: 0.2546 |  val acc: 0.9111 |  auc: 0.9927 |  time: 68.6720 |
+test loss: 0.6406  test acc: 0.7809  test Auc: 0.9171
+epoches: 0257 |  train loss: 0.1145 |  train acc: 0.9569 |  val loss: 0.2264 |  val acc: 0.9156 |  auc: 0.9922 |  time: 58.0791 |
+epoches: 0258 |  train loss: 0.1063 |  train acc: 0.9600 |  val loss: 0.2230 |  val acc: 0.8822 |  auc: 0.9924 |  time: 57.9760 |
+test loss: 0.5067  test acc: 0.8150  test Auc: 0.9247
+epoches: 0259 |  train loss: 0.1030 |  train acc: 0.9614 |  val loss: 0.2664 |  val acc: 0.8867 |  auc: 0.9930 |  time: 57.9793 |
+epoches: 0260 |  train loss: 0.1029 |  train acc: 0.9639 |  val loss: 0.2408 |  val acc: 0.9133 |  auc: 0.9934 |  time: 57.7990 |
+test loss: 0.5613  test acc: 0.7971  test Auc: 0.9167
+epoches: 0261 |  train loss: 0.1114 |  train acc: 0.9572 |  val loss: 0.2181 |  val acc: 0.9289 |  auc: 0.9926 |  time: 58.0114 |
+epoches: 0262 |  train loss: 0.1165 |  train acc: 0.9557 |  val loss: 0.1869 |  val acc: 0.8800 |  auc: 0.9935 |  time: 57.9623 |
+test loss: 0.5331  test acc: 0.8103  test Auc: 0.9108
+epoches: 0263 |  train loss: 0.1018 |  train acc: 0.9642 |  val loss: 0.2752 |  val acc: 0.9333 |  auc: 0.9937 |  time: 57.7976 |
+epoches: 0264 |  train loss: 0.1164 |  train acc: 0.9582 |  val loss: 0.2579 |  val acc: 0.8933 |  auc: 0.9935 |  time: 58.1810 |
+test loss: 0.5086  test acc: 0.8014  test Auc: 0.9176
+epoches: 0265 |  train loss: 0.1021 |  train acc: 0.9652 |  val loss: 0.1894 |  val acc: 0.8956 |  auc: 0.9937 |  time: 57.6472 |
+epoches: 0266 |  train loss: 0.1072 |  train acc: 0.9620 |  val loss: 0.2234 |  val acc: 0.9356 |  auc: 0.9934 |  time: 58.2070 |
+test loss: 0.4871  test acc: 0.8301  test Auc: 0.9284
+epoches: 0267 |  train loss: 0.1104 |  train acc: 0.9603 |  val loss: 0.2344 |  val acc: 0.9200 |  auc: 0.9933 |  time: 57.7339 |
+epoches: 0268 |  train loss: 0.0971 |  train acc: 0.9631 |  val loss: 0.2385 |  val acc: 0.8956 |  auc: 0.9928 |  time: 57.6538 |
+test loss: 0.6059  test acc: 0.8008  test Auc: 0.9172
+epoches: 0269 |  train loss: 0.1123 |  train acc: 0.9604 |  val loss: 0.2867 |  val acc: 0.9111 |  auc: 0.9941 |  time: 57.6947 |
+epoches: 0270 |  train loss: 0.1034 |  train acc: 0.9637 |  val loss: 0.2139 |  val acc: 0.9022 |  auc: 0.9928 |  time: 57.7227 |
+test loss: 0.5081  test acc: 0.8158  test Auc: 0.9267
+epoches: 0271 |  train loss: 0.0973 |  train acc: 0.9674 |  val loss: 0.2564 |  val acc: 0.9089 |  auc: 0.9942 |  time: 57.8791 |
+epoches: 0272 |  train loss: 0.0942 |  train acc: 0.9657 |  val loss: 0.2668 |  val acc: 0.9133 |  auc: 0.9941 |  time: 57.6257 |
+test loss: 0.5545  test acc: 0.8090  test Auc: 0.9261
+epoches: 0273 |  train loss: 0.0958 |  train acc: 0.9656 |  val loss: 0.2049 |  val acc: 0.9089 |  auc: 0.9933 |  time: 57.5481 |
+epoches: 0274 |  train loss: 0.1018 |  train acc: 0.9644 |  val loss: 0.2321 |  val acc: 0.9356 |  auc: 0.9949 |  time: 57.6120 |
+test loss: 0.5361  test acc: 0.8195  test Auc: 0.9197
+epoches: 0275 |  train loss: 0.1001 |  train acc: 0.9652 |  val loss: 0.2509 |  val acc: 0.8778 |  auc: 0.9938 |  time: 57.7545 |
+epoches: 0276 |  train loss: 0.0980 |  train acc: 0.9635 |  val loss: 0.2005 |  val acc: 0.9311 |  auc: 0.9940 |  time: 57.6499 |
+test loss: 0.5590  test acc: 0.7985  test Auc: 0.9185
+epoches: 0277 |  train loss: 0.0913 |  train acc: 0.9652 |  val loss: 0.2549 |  val acc: 0.9156 |  auc: 0.9948 |  time: 58.1055 |
+epoches: 0278 |  train loss: 0.0970 |  train acc: 0.9654 |  val loss: 0.2532 |  val acc: 0.9267 |  auc: 0.9939 |  time: 57.6708 |
+test loss: 0.6369  test acc: 0.7934  test Auc: 0.9200
+epoches: 0279 |  train loss: 0.1018 |  train acc: 0.9624 |  val loss: 0.2752 |  val acc: 0.8933 |  auc: 0.9948 |  time: 57.6606 |
+epoches: 0280 |  train loss: 0.0978 |  train acc: 0.9659 |  val loss: 0.2752 |  val acc: 0.9267 |  auc: 0.9944 |  time: 57.4762 |
+test loss: 0.5803  test acc: 0.8072  test Auc: 0.9239
+epoches: 0281 |  train loss: 0.0967 |  train acc: 0.9641 |  val loss: 0.2301 |  val acc: 0.9289 |  auc: 0.9945 |  time: 57.7406 |
+epoches: 0282 |  train loss: 0.0933 |  train acc: 0.9694 |  val loss: 0.2203 |  val acc: 0.9289 |  auc: 0.9940 |  time: 57.7346 |
+test loss: 0.6361  test acc: 0.8010  test Auc: 0.9205
+epoches: 0283 |  train loss: 0.0911 |  train acc: 0.9697 |  val loss: 0.1994 |  val acc: 0.9267 |  auc: 0.9946 |  time: 57.6821 |
+epoches: 0284 |  train loss: 0.1030 |  train acc: 0.9651 |  val loss: 0.2326 |  val acc: 0.8956 |  auc: 0.9948 |  time: 57.6071 |
+test loss: 0.6011  test acc: 0.8112  test Auc: 0.9229
+epoches: 0285 |  train loss: 0.0964 |  train acc: 0.9662 |  val loss: 0.2169 |  val acc: 0.9111 |  auc: 0.9945 |  time: 57.5904 |
+epoches: 0286 |  train loss: 0.0873 |  train acc: 0.9696 |  val loss: 0.2238 |  val acc: 0.9067 |  auc: 0.9950 |  time: 57.6494 |
+test loss: 0.5367  test acc: 0.8237  test Auc: 0.9149
+epoches: 0287 |  train loss: 0.0943 |  train acc: 0.9642 |  val loss: 0.2362 |  val acc: 0.9178 |  auc: 0.9948 |  time: 57.7104 |
+epoches: 0288 |  train loss: 0.0995 |  train acc: 0.9680 |  val loss: 0.2892 |  val acc: 0.9222 |  auc: 0.9945 |  time: 57.7103 |
+test loss: 0.5644  test acc: 0.8154  test Auc: 0.9147
+epoches: 0289 |  train loss: 0.0887 |  train acc: 0.9696 |  val loss: 0.2320 |  val acc: 0.9311 |  auc: 0.9952 |  time: 57.6925 |
+epoches: 0290 |  train loss: 0.0968 |  train acc: 0.9662 |  val loss: 0.3095 |  val acc: 0.9022 |  auc: 0.9949 |  time: 57.4868 |
+test loss: 0.5633  test acc: 0.8208  test Auc: 0.9192
+epoches: 0291 |  train loss: 0.0910 |  train acc: 0.9662 |  val loss: 0.2680 |  val acc: 0.8978 |  auc: 0.9945 |  time: 57.7870 |
+epoches: 0292 |  train loss: 0.0867 |  train acc: 0.9676 |  val loss: 0.2229 |  val acc: 0.9067 |  auc: 0.9956 |  time: 57.6621 |
+test loss: 0.5873  test acc: 0.8307  test Auc: 0.9179
+epoches: 0293 |  train loss: 0.0983 |  train acc: 0.9643 |  val loss: 0.2490 |  val acc: 0.9156 |  auc: 0.9947 |  time: 57.6312 |
+epoches: 0294 |  train loss: 0.0864 |  train acc: 0.9684 |  val loss: 0.2718 |  val acc: 0.9222 |  auc: 0.9953 |  time: 57.5455 |
+test loss: 0.6000  test acc: 0.8014  test Auc: 0.9213
+epoches: 0295 |  train loss: 0.0927 |  train acc: 0.9672 |  val loss: 0.2096 |  val acc: 0.9267 |  auc: 0.9955 |  time: 57.7672 |
+epoches: 0296 |  train loss: 0.0959 |  train acc: 0.9641 |  val loss: 0.2382 |  val acc: 0.9178 |  auc: 0.9950 |  time: 57.8010 |
+test loss: 0.5480  test acc: 0.8094  test Auc: 0.9208
+epoches: 0297 |  train loss: 0.0852 |  train acc: 0.9685 |  val loss: 0.2143 |  val acc: 0.9244 |  auc: 0.9955 |  time: 57.6475 |
+epoches: 0298 |  train loss: 0.1036 |  train acc: 0.9623 |  val loss: 0.2501 |  val acc: 0.9156 |  auc: 0.9951 |  time: 57.6945 |
+test loss: 0.5974  test acc: 0.8113  test Auc: 0.9267
+epoches: 0299 |  train loss: 0.0901 |  train acc: 0.9673 |  val loss: 0.2350 |  val acc: 0.9311 |  auc: 0.9950 |  time: 57.6044 |
+epoches: 0300 |  train loss: 0.0903 |  train acc: 0.9673 |  val loss: 0.2372 |  val acc: 0.9267 |  auc: 0.9952 |  time: 57.6370 |
+test loss: 0.5648  test acc: 0.8020  test Auc: 0.9046
+epoches: 0301 |  train loss: 0.0980 |  train acc: 0.9671 |  val loss: 0.2413 |  val acc: 0.9133 |  auc: 0.9955 |  time: 57.8765 |
+epoches: 0302 |  train loss: 0.0908 |  train acc: 0.9642 |  val loss: 0.2211 |  val acc: 0.9333 |  auc: 0.9957 |  time: 57.7079 |
+test loss: 0.5417  test acc: 0.8187  test Auc: 0.9193
+epoches: 0303 |  train loss: 0.0946 |  train acc: 0.9690 |  val loss: 0.2665 |  val acc: 0.9356 |  auc: 0.9953 |  time: 57.5997 |
+epoches: 0304 |  train loss: 0.1002 |  train acc: 0.9664 |  val loss: 0.2222 |  val acc: 0.9222 |  auc: 0.9957 |  time: 57.7557 |
+test loss: 0.5698  test acc: 0.8117  test Auc: 0.9148
+epoches: 0305 |  train loss: 0.0860 |  train acc: 0.9691 |  val loss: 0.2397 |  val acc: 0.9200 |  auc: 0.9953 |  time: 57.5954 |
+epoches: 0306 |  train loss: 0.0973 |  train acc: 0.9647 |  val loss: 0.2360 |  val acc: 0.9200 |  auc: 0.9952 |  time: 57.6675 |
+test loss: 0.5764  test acc: 0.7895  test Auc: 0.9243
+epoches: 0307 |  train loss: 0.0883 |  train acc: 0.9705 |  val loss: 0.2443 |  val acc: 0.9311 |  auc: 0.9954 |  time: 57.6129 |
+epoches: 0308 |  train loss: 0.0863 |  train acc: 0.9686 |  val loss: 0.2431 |  val acc: 0.9356 |  auc: 0.9959 |  time: 57.7529 |
+test loss: 0.6700  test acc: 0.8223  test Auc: 0.9208
+epoches: 0309 |  train loss: 0.0815 |  train acc: 0.9728 |  val loss: 0.2510 |  val acc: 0.9311 |  auc: 0.9957 |  time: 57.6448 |
+epoches: 0310 |  train loss: 0.0881 |  train acc: 0.9696 |  val loss: 0.2668 |  val acc: 0.9267 |  auc: 0.9959 |  time: 57.6973 |
+test loss: 0.6636  test acc: 0.8239  test Auc: 0.9101
+epoches: 0311 |  train loss: 0.0966 |  train acc: 0.9655 |  val loss: 0.2099 |  val acc: 0.9089 |  auc: 0.9959 |  time: 57.8235 |
+epoches: 0312 |  train loss: 0.0831 |  train acc: 0.9712 |  val loss: 0.2775 |  val acc: 0.9089 |  auc: 0.9955 |  time: 57.6225 |
+test loss: 0.5546  test acc: 0.8425  test Auc: 0.9271
+epoches: 0313 |  train loss: 0.0810 |  train acc: 0.9718 |  val loss: 0.2239 |  val acc: 0.9400 |  auc: 0.9952 |  time: 57.4787 |
+epoches: 0314 |  train loss: 0.0823 |  train acc: 0.9718 |  val loss: 0.2531 |  val acc: 0.9133 |  auc: 0.9962 |  time: 57.8853 |
+test loss: 0.5960  test acc: 0.8036  test Auc: 0.9114
+epoches: 0315 |  train loss: 0.0838 |  train acc: 0.9694 |  val loss: 0.2796 |  val acc: 0.9200 |  auc: 0.9963 |  time: 57.6807 |
+epoches: 0316 |  train loss: 0.0910 |  train acc: 0.9675 |  val loss: 0.2354 |  val acc: 0.9133 |  auc: 0.9959 |  time: 57.6287 |
+test loss: 0.5737  test acc: 0.8138  test Auc: 0.9251
+epoches: 0317 |  train loss: 0.0762 |  train acc: 0.9739 |  val loss: 0.2453 |  val acc: 0.9200 |  auc: 0.9962 |  time: 57.7279 |
+epoches: 0318 |  train loss: 0.0739 |  train acc: 0.9716 |  val loss: 0.2611 |  val acc: 0.9267 |  auc: 0.9959 |  time: 57.7939 |
+test loss: 0.5577  test acc: 0.8016  test Auc: 0.9178
+epoches: 0319 |  train loss: 0.0996 |  train acc: 0.9674 |  val loss: 0.2261 |  val acc: 0.9178 |  auc: 0.9959 |  time: 57.9253 |
+epoches: 0320 |  train loss: 0.0862 |  train acc: 0.9718 |  val loss: 0.2397 |  val acc: 0.9311 |  auc: 0.9957 |  time: 57.7282 |
+test loss: 0.6173  test acc: 0.7916  test Auc: 0.9029
+epoches: 0321 |  train loss: 0.0915 |  train acc: 0.9672 |  val loss: 0.2423 |  val acc: 0.9200 |  auc: 0.9956 |  time: 57.8455 |
+epoches: 0322 |  train loss: 0.0852 |  train acc: 0.9712 |  val loss: 0.2458 |  val acc: 0.9044 |  auc: 0.9958 |  time: 57.7770 |
+test loss: 0.6797  test acc: 0.8134  test Auc: 0.9174
+epoches: 0323 |  train loss: 0.0808 |  train acc: 0.9718 |  val loss: 0.2537 |  val acc: 0.9267 |  auc: 0.9964 |  time: 57.6227 |
+epoches: 0324 |  train loss: 0.0770 |  train acc: 0.9707 |  val loss: 0.2130 |  val acc: 0.9044 |  auc: 0.9959 |  time: 57.9474 |
+test loss: 0.6176  test acc: 0.7983  test Auc: 0.9186
+epoches: 0325 |  train loss: 0.0789 |  train acc: 0.9731 |  val loss: 0.2536 |  val acc: 0.9378 |  auc: 0.9959 |  time: 57.7318 |
+epoches: 0326 |  train loss: 0.0855 |  train acc: 0.9724 |  val loss: 0.2265 |  val acc: 0.9356 |  auc: 0.9963 |  time: 57.7538 |
+test loss: 0.6202  test acc: 0.8252  test Auc: 0.9183
+epoches: 0327 |  train loss: 0.0876 |  train acc: 0.9672 |  val loss: 0.2259 |  val acc: 0.9089 |  auc: 0.9958 |  time: 57.7172 |
+epoches: 0328 |  train loss: 0.0802 |  train acc: 0.9726 |  val loss: 0.2117 |  val acc: 0.9111 |  auc: 0.9965 |  time: 57.8795 |
+test loss: 0.6623  test acc: 0.8061  test Auc: 0.9248
+epoches: 0329 |  train loss: 0.0783 |  train acc: 0.9758 |  val loss: 0.2193 |  val acc: 0.8867 |  auc: 0.9962 |  time: 57.7522 |
+epoches: 0330 |  train loss: 0.0724 |  train acc: 0.9750 |  val loss: 0.2003 |  val acc: 0.9156 |  auc: 0.9963 |  time: 57.6652 |
+test loss: 0.6043  test acc: 0.8273  test Auc: 0.9161
+epoches: 0331 |  train loss: 0.0755 |  train acc: 0.9715 |  val loss: 0.2183 |  val acc: 0.9400 |  auc: 0.9964 |  time: 57.8222 |
+epoches: 0332 |  train loss: 0.0775 |  train acc: 0.9731 |  val loss: 0.2328 |  val acc: 0.9244 |  auc: 0.9961 |  time: 58.1999 |
+test loss: 0.6133  test acc: 0.8037  test Auc: 0.9191
+epoches: 0333 |  train loss: 0.1058 |  train acc: 0.9614 |  val loss: 0.2819 |  val acc: 0.9200 |  auc: 0.9963 |  time: 57.8882 |
+epoches: 0334 |  train loss: 0.0721 |  train acc: 0.9762 |  val loss: 0.2564 |  val acc: 0.9356 |  auc: 0.9965 |  time: 57.9082 |
+test loss: 0.6818  test acc: 0.8217  test Auc: 0.9203
+epoches: 0335 |  train loss: 0.0809 |  train acc: 0.9728 |  val loss: 0.2148 |  val acc: 0.9222 |  auc: 0.9963 |  time: 57.8930 |
+epoches: 0336 |  train loss: 0.0841 |  train acc: 0.9693 |  val loss: 0.2022 |  val acc: 0.9267 |  auc: 0.9964 |  time: 58.1997 |
+test loss: 0.6281  test acc: 0.8237  test Auc: 0.9046
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/MRGNN/model_p_reply_ablation.py", line 585, in <module>
+    acc, auc, train_acc, train_auc, train_loss = run(emb_dim=128, times=times, dataname=dataname,
+  File "/Users/admin/Desktop/MRGNN/model_p_reply_ablation.py", line 381, in run
+    loss.backward()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+
+Process finished with exit code 130 (interrupted by signal 2:SIGINT)

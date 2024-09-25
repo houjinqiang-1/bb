@@ -1,0 +1,98 @@
+bitwise:
+    all:
+    len(y_true),len(y_pred),len(y_pred_label): 132 , 132 , 132
+    layer_num: 1 | weak tie : auc: 0.9421487603305785  |  f1: 0.8837209302325582
+    len(y_true),len(y_pred),len(y_pred_label): 192 , 192 , 192
+    layer_num: 2 | weak tie : auc: 0.9197349842511132  |  f1: 0.8404255319148937
+    len(y_true),len(y_pred),len(y_pred_label): 348 , 348 , 348
+    layer_num: 3 | weak tie : auc: 0.9184985620310073  |  f1: 0.8383561643835616
+
+    louvain:
+    len(y_true),len(y_pred),len(y_pred_label): 73 , 73 , 73
+    layer_num: 1 | weak tie : auc: 0.9444444444444444  |  f1: 0.6956521739130435
+    len(y_true),len(y_pred),len(y_pred_label): 102 , 102 , 102
+    layer_num: 2 | weak tie : auc: 0.8731769181991123  |  f1: 0.5641025641025641
+    len(y_true),len(y_pred),len(y_pred_label): 232 , 232 , 232
+    layer_num: 3 | weak tie : auc: 0.9417172739541161  |  f1: 0.7810650887573964
+
+    lpa:
+    len(y_true),len(y_pred),len(y_pred_label): 79 , 79 , 79
+    layer_num: 1 | weak tie : auc: 0.9583333333333334  |  f1: 0.787878787878788
+    len(y_true),len(y_pred),len(y_pred_label): 121 , 121 , 121
+    layer_num: 2 | weak tie : auc: 0.9010779961953076  |  f1: 0.7123287671232877
+    len(y_true),len(y_pred),len(y_pred_label): 203 , 203 , 203
+    layer_num: 3 | weak tie : auc: 0.9261140614176864  |  f1: 0.7482014388489209
+
+    metis:
+    len(y_true),len(y_pred),len(y_pred_label): 80 , 80 , 80
+    layer_num: 1 | weak tie : auc: 0.9336917562724014  |  f1: 0.7428571428571428
+    len(y_true),len(y_pred),len(y_pred_label): 116 , 116 , 116
+    layer_num: 2 | weak tie : auc: 0.872564935064935  |  f1: 0.6428571428571429
+    len(y_true),len(y_pred),len(y_pred_label): 240 , 240 , 240
+    layer_num: 3 | weak tie : auc: 0.9153131313131312  |  f1: 0.7398843930635838
+
+semantic:
+    all:
+    len(y_true),len(y_pred),len(y_pred_label): 132 , 132 , 132
+    layer_num: 1 | weak tie : auc: 0.946969696969697  |  f1: 0.8205128205128205
+    len(y_true),len(y_pred),len(y_pred_label): 192 , 192 , 192
+    layer_num: 2 | weak tie : auc: 0.9234278266536331  |  f1: 0.854054054054054
+    len(y_true),len(y_pred),len(y_pred_label): 348 , 348 , 348
+    layer_num: 3 | weak tie : auc: 0.9059039370599319  |  f1: 0.8238805970149254
+
+    louvain:
+    len(y_true),len(y_pred),len(y_pred_label): 73 , 73 , 73
+    layer_num: 1 | weak tie : auc: 0.9206349206349206  |  f1: 0.8000000000000002
+    len(y_true),len(y_pred),len(y_pred_label): 102 , 102 , 102
+    layer_num: 2 | weak tie : auc: 0.9334178820545338  |  f1: 0.6829268292682926
+    len(y_true),len(y_pred),len(y_pred_label): 232 , 232 , 232
+    layer_num: 3 | weak tie : auc: 0.9270411605937922  |  f1: 0.7948717948717949
+
+    lpa:
+    len(y_true),len(y_pred),len(y_pred_label): 79 , 79 , 79
+    layer_num: 1 | weak tie : auc: 0.9484126984126985  |  f1: 0.64
+    len(y_true),len(y_pred),len(y_pred_label): 121 , 121 , 121
+    layer_num: 2 | weak tie : auc: 0.9384908053265694  |  f1: 0.7671232876712328
+    len(y_true),len(y_pred),len(y_pred_label): 203 , 203 , 203
+    layer_num: 3 | weak tie : auc: 0.904294620180097  |  f1: 0.7619047619047619
+
+    metis:
+    len(y_true),len(y_pred),len(y_pred_label): 80 , 80 , 80
+    layer_num: 1 | weak tie : auc: 0.9345878136200717  |  f1: 0.7741935483870968
+    len(y_true),len(y_pred),len(y_pred_label): 116 , 116 , 116
+    layer_num: 2 | weak tie : auc: 0.9034090909090908  |  f1: 0.6666666666666666
+    len(y_true),len(y_pred),len(y_pred_label): 240 , 240 , 240
+    layer_num: 3 | weak tie : auc: 0.9087676767676768  |  f1: 0.763157894736842
+
+single:
+    all:
+    len(y_true),len(y_pred),len(y_pred_label): 132 , 132 , 132
+    layer_num: 1 | weak tie : auc: 0.8636363636363636  |  f1: 0.7642276422764227
+    len(y_true),len(y_pred),len(y_pred_label): 192 , 192 , 192
+    layer_num: 2 | weak tie : auc: 0.8745519713261649  |  f1: 0.7999999999999999
+    len(y_true),len(y_pred),len(y_pred_label): 348 , 348 , 348
+    layer_num: 3 | weak tie : auc: 0.8899871078642029  |  f1: 0.7697160883280758
+
+    louvain:
+    len(y_true),len(y_pred),len(y_pred_label): 73 , 73 , 73
+    layer_num: 1 | weak tie : auc: 0.7825396825396826  |  f1: 0.5384615384615384
+    len(y_true),len(y_pred),len(y_pred_label): 102 , 102 , 102
+    layer_num: 2 | weak tie : auc: 0.8116677235256817  |  f1: 0.40909090909090906
+    len(y_true),len(y_pred),len(y_pred_label): 232 , 232 , 232
+    layer_num: 3 | weak tie : auc: 0.9097081646423752  |  f1: 0.7162162162162163
+
+    lpa:
+    len(y_true),len(y_pred),len(y_pred_label): 79 , 79 , 79
+    layer_num: 1 | weak tie : auc: 0.8263888888888888  |  f1: 0.6470588235294118
+    len(y_true),len(y_pred),len(y_pred_label): 121 , 121 , 121
+    layer_num: 2 | weak tie : auc: 0.8386176284083703  |  f1: 0.6233766233766234
+    len(y_true),len(y_pred),len(y_pred_label): 203 , 203 , 203
+    layer_num: 3 | weak tie : auc: 0.8899214961902563  |  f1: 0.7049180327868853
+
+    metis:
+    len(y_true),len(y_pred),len(y_pred_label): 80 , 80 , 80
+    layer_num: 1 | weak tie : auc: 0.8261648745519713  |  f1: 0.6842105263157895
+    len(y_true),len(y_pred),len(y_pred_label): 116 , 116 , 116
+    layer_num: 2 | weak tie : auc: 0.8672889610389611  |  f1: 0.5937499999999999
+    len(y_true),len(y_pred),len(y_pred_label): 240 , 240 , 240
+    layer_num: 3 | weak tie : auc: 0.9084848484848485  |  f1: 0.6944444444444444
